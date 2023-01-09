@@ -1,0 +1,27 @@
+/* big-image stylesheet */
+
+.big-image {
+    min-height: 175vh;
+    background-color: #013148;
+    background-image: url(../Images/ato-image-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: screen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.big-image .image-content {
+    text-align: center;
+}
+
+.big-image img {
+    max-width: 70vw;
+}
+
+

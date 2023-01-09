@@ -1,0 +1,24 @@
+/* newsletter signup stylesheet */
+
+.newsletter-signup {
+    margin: 2rem auto;
+    max-width: 65ch;
+    padding: 1rem;
+    text-align: center;
+}
+
+.newsletter-signup input {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.35rem;
+}
+
+.newsletter-signup label {
+    display: block;
+}
+
+.newsletter-signup input[type="submit"] {
+    background-color: #F7DA70;
+    color: #013148;
+    border: 0;
+}

@@ -1,0 +1,35 @@
+/* 'global' stylesheet */
+
+/* add CSS here that controls the overall design of your webpage, so you might style the body tag and headings here, e.g. */
+
+/* we would expect you to use google fonts for this */
+/* set a standard colour for all content */
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: #013148;
+    font-family: Mulish, sans-serif;
+    color: #CED3D2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+}
+
+/* style your headings as in your style guide */
+
+h1 {
+    font-family: Rokkitt, serif;
+    color: #F7DA70;
+}
+
+h2 {
+    font-family: Rokkitt, serif;
+    color: #F7DA70;
+}
+
+h3 {
+    font-family: Rokkitt, serif;
+    color: #F7DA70;
+}

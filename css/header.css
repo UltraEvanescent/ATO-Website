@@ -1,0 +1,81 @@
+/* header stylesheet */
+
+/* you will probably need to style the hyperlinks, so something like header a would work */
+
+header {
+    background: #013148;
+    padding: 1rem;
+}
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 800px) {
+    div.sidenav {
+      display: none;
+    }
+  }
+@media screen and (min-width: 200px) {
+
+    header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+    }
+}
+
+header span {
+    display: block;
+    max-width: 70vw;
+}
+
+header nav {
+    margin: auto;
+}
+
+header nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header nav ul li {
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+header li a {
+    color: #F7DA70;
+    text-align: center;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: #FFD53D;
+}
+
+/* highlight */
+
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+header li a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #FFD53D;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+header li a:hover::before {
+    width: 100%;
+}
+
+
